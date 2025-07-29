@@ -123,3 +123,25 @@ body {
 .game-info {
   margin-left: 20px;
 }
+.btn-style {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a068100;
+  color: #4a0681;
+  border: 2px solid #4a0681;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-style:hover {
+  background-color: #6a0ea8;
+  color: #ffffff;
+
+}
+.square.highlight {
+  background-color: #4caf50;
+  color: rgb(116, 46, 46);
+  box-shadow: 0 0 10px #4caf50;
+}
